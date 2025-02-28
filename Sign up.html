@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to right, #3a7bd5, #296582);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .login-box {
+            background: white;
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .avatar img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #1251a9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background: #104684;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="avatar">
+                <img src="chizzious search botton.png" alt="User Icon">
+            </div>
+            <h2>Forgot Password</h2>
+            <form>
+               <div > <input type="text" placeholder="First name" required >
+                <input type="text" placeholder="Last name " required >
+                <input type="text" placeholder="Email" required >
+                <input type="password" placeholder="Your Password " required >
+                <input type="password" placeholder="Confirm Password " required >
+                
+                
+                <button type="submit"><a href="http://127.0.0.1:5500/Html/Logic%20page.html">Register</a></button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
